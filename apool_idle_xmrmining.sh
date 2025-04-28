@@ -11,8 +11,8 @@ mkdir -p "$(dirname "$LOG_PATH")"
 
 # 定义退出时清理的函数
 cleanup() {
-    echo "Stopping XMRIG and cleaning up..."
-    pkill -f xmrig  # 结束矿工进程
+    echo "Stopping apoolminer and cleaning up..."
+    pkill -f apoolminer  # 结束矿工进程
     exit 0
 }
 
